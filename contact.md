@@ -7,12 +7,12 @@ permalink: /contact/
 	<h1 style="color: #343851;">Join Us</h1>
 	<p>
 		Join our discussion group at:<br>
-		<div style="display: inline-block; vertical-align: top; width: 140px; height: 140px; padding-right: 50px">
+		<div class="slack" style="display: inline-block; vertical-align: top;">
 			<a href="https://join.slack.com/t/sunwaytechclub/shared_invite/enQtNDI4MzAwMDk4ODgzLWM3MzMyZWY2NTRiMzhjNDNhN2Y5ZjY3ZDY1YWY1ZjVlYjI5M2UxZmJkMjljMjdjZmE1N2ZmMmM2ZjA0YzljYjQ" style="border: none;">
 				<img src="{{ "/assets/img/slack.png" | relative_url }}" alt="SLACK">
 			</a>
 		</div>
-		<div style="display: inline-block; vertical-align: top; width: 160px; height: 160px; padding-left: 50px">
+		<div class="telegram" style="display: inline-block; vertical-align: top;">
 			<a href="tg://join?invite=AEw0LkH7Xu4BRr0BVSXH9g" style="border: none;">
 				<img src="{{ "/assets/img/telegram.png" | relative_url }}" alt="TELEGRAM">
 			</a>
@@ -40,37 +40,58 @@ permalink: /contact/
 
 
 <style type="text/css">
-a{
-	style="text-decoration: none !important;"
-}
 /*desktop*/
-.form-wrapper{
-	width: 50%;
-	display: inline-block;
-	text-align: justify;
-}
+@media screen and (min-width: 768px) {
+	.form-wrapper{
+		width: 50%;
+		display: inline-block;
+		text-align: justify;
+	}
 
-.contact-info-wrapper{
-	width: 35%;
-	display: inline-block;
-	vertical-align: top;
-	float: right;
-	border-left: 3px double #343851;
-	padding-left: 3%;
-	padding-bottom: 100px;
+	.contact-info-wrapper{
+		width: 35%;
+		display: inline-block;
+		vertical-align: top;
+		float: right;
+		border-left: 3px double #343851;
+		padding-left: 3%;
+		padding-bottom: 100px;
+	}
+
+	.slack{
+		padding-right: 50px;
+		width: 140px; 
+		height: 140px;
+	}
+
+	.telegram{
+		padding-left: 50px;
+		width: 160px; 
+		height: 160px;
+	}
 }
 
 /*mobile*/
 @media screen and (max-width: 768px) {
-.form-wrapper{
-	width: 100%;	
-	text-align: justify;
-}
+	.form-wrapper{
+		width: 100%;	
+		text-align: justify;
+	}
 
-.contact-info-wrapper{
-	width: 100%;
-	display: inline-block;
-}
+	.contact-info-wrapper{
+		width: 100%;
+		display: inline-block;
+		padding-top: 50px;
+	}
+	.slack{
+		width: 30%; 
+		height: 30%;
+	}
+
+	.telegram{
+		width: 37%; 
+		height: 37%;
+	}
 }
 	
 </style>
