@@ -45,6 +45,7 @@ permalink: /contact/
 	.form-wrapper{
 		width: 50%;
 		display: inline-block;
+		text-align: justify;
 	}
 
 	.contact-info-wrapper{
@@ -73,11 +74,13 @@ permalink: /contact/
 /*mobile*/
 @media screen and (max-width: 768px) {
 	.form-wrapper{
-		width: 100%;	
+		width: 100%;
+		text-align: justify;
 	}
 
 	.contact-info-wrapper{
 		width: 100%;
+		display: inline-block;
 		padding-top: 50px;
 	}
 	.slack{
@@ -90,10 +93,4 @@ permalink: /contact/
 		height: 37%;
 	}
 }
-
-	.form__input {
-	    width: 100%;
-	    margin-bottom: 35px
-	}
-	
 </style>
