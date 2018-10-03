@@ -25,6 +25,7 @@ navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
+  - {name: 'Merchandise', link: '/merchandise'}
 
 tagline: >
   Bridging the gap between industry and education
