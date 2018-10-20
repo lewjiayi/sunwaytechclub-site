@@ -3,6 +3,7 @@ layout: page
 title: Contact Us
 permalink: /contact/
 ---
+
 <div style="text-align: center;">
 	<h1 style="color: #343851;">Join Us</h1>
 	<p>
@@ -24,7 +25,7 @@ permalink: /contact/
 		 <p align="justify">
 		 	If you have any question, feel free to drop us a message. <br><br>
 		 	If you don't get our reply shortly, we might just be stuck in the middle of coding something cool for you! <br><br>
-			We will get back to you once we can. 
+			We will get back to you once we can.
 		</p>
 		{% include form.html %}
 	</div>
@@ -37,7 +38,6 @@ permalink: /contact/
 </div>
 
 {% include modal.html %}
-
 
 <style type="text/css">
 /*desktop*/
@@ -60,13 +60,13 @@ permalink: /contact/
 
 	.slack{
 		padding-right: 50px;
-		width: 140px; 
+		width: 140px;
 		height: 140px;
 	}
 
 	.telegram{
 		padding-left: 50px;
-		width: 160px; 
+		width: 160px;
 		height: 160px;
 	}
 }
@@ -84,12 +84,12 @@ permalink: /contact/
 		padding-top: 50px;
 	}
 	.slack{
-		width: 30%; 
+		width: 30%;
 		height: 30%;
 	}
 
 	.telegram{
-		width: 37%; 
+		width: 37%;
 		height: 37%;
 	}
 }
