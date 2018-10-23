@@ -4,7 +4,17 @@ title: Merchandise
 permalink: /merchandise/
 ---
 
-# Our Product
+
+<div>
+	<h1 style="display: inline-block; text-align: left;">
+		Our Product
+	</h1>
+	<span class="cart-img-wrapper">
+		<img class="cart-img" src="{{ "/assets/img/cart.png" | relative_url }}" alt="Cart">
+	</span>
+</div>
+
+
 <div>
 	<div class="product-div-wrapper">
 		<img class="product-img-wrapper" src="{{ "/assets/img/t-shirt.jpg" | relative_url }}" alt="T-shirt">
@@ -29,6 +39,17 @@ permalink: /merchandise/
 	font-weight: bold;
 	text-align: center;	
 }
+
+.cart-img{
+	width: 50px;
+	height: 50px;
+}
+
+.cart-img-wrapper{
+	display: inline-block;
+	float: right;
+}
+
 
 @media screen and (min-width: 769px){
 	.product-div-wrapper{
