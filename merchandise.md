@@ -14,6 +14,7 @@ permalink: /merchandise/
 	</span>
 </div>
 
+<br>
 
 <div>
 	<div class="product-div-wrapper">
@@ -83,8 +84,9 @@ permalink: /merchandise/
 		border-style: groove;
 		border-width: 3px;
 		margin-right: 50px;
+		margin-top: 20px;
 	}
-	
+
 	.product-img-wrapper{
 		display: block;
 		padding-top: 20px;
