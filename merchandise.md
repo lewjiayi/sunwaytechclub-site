@@ -7,7 +7,7 @@ permalink: /merchandise/
 
 <div>
 	<h1 style="display: inline-block; text-align: left;">
-		Our Product
+		Our Products
 	</h1>
 	<span class="cart-img-wrapper">
 		<img class="cart-img" src="{{ "/assets/img/cart.png" | relative_url }}" alt="Cart">
@@ -75,11 +75,23 @@ permalink: /merchandise/
 }
 
 @media screen and (max-width: 768px){
-	.product-wrapper{
+	.product-div-wrapper{
 		width: 100%;
 		height: 300px;
+		border-color: #343851;
+		border-radius: 15px;
+		border-style: groove;
+		border-width: 3px;
+		margin-right: 50px;
 	}
-
+	
+	.product-img-wrapper{
+		display: block;
+		padding-top: 20px;
+		height: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 }
 
