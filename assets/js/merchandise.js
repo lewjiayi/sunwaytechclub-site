@@ -17,3 +17,4 @@ if (document.getElementById("tshirt-submit") != null) {
         localStorage.setItem("tshirt", 5);
         alert(added + localStorage.tshirt + " " + product.tshirt.name + tocart);
     };
+}
